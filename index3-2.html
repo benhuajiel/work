@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head >
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>title</title>
+</head>
+<body>
+
+<h1>Form Example</h1>
+<form action="/submit" method="post">
+    <p>姓名<input type=text name="姓名"><br>
+       性别<input type=radio name="性别" value="男">男
+          <input type=radio name="性别" value="女">女<br>
+       出生日期<input text=text name ="year"size="3">年
+        <input text=text name ="month"size="3">月
+        <input text=text name ="day"size="3">日<br>
+        报名部门<input type="checkbox" name="部门" value="培训部">培训部
+        <input type="checkbox" name="部门" value="管理部">管理部
+        <input type="checkbox" name="部门" value="宣传部">宣传部
+        <input type="checkbox" name="部门" value="组织部">组织部<br>
+        年级<br>
+        <select name="年级">
+            <option value="大一">大一</option>
+            <option value="大二">大二</option>
+            <option value="大三">大三</option>
+            <option value="大四">大四</option>
+            <option value="研究生">研究生</option>
+        </select>
+    </p>
+    <p>
+        报名原因及个人优势
+    </p>
+    <p>
+        <textarea name="comments" rows="4" cols="50" placeholder="Comments"></textarea>
+    </p>
+
+
+
+</form>
+</body>
+</html>
